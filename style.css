@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:bold ;
+  src: url(Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: regular;
+  src: url(Outfit-Regular.ttf);
+}
+
+body{
+  font-size: 16px;
+  width: 100%;
+}
+
+img{
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.container{
+  background-image: url(image/pattern-background-mobile.svg);
+  background-color: hsl(225, 100%, 94%);
+  width: 100%;
+}
+
+.card{
+  padding: 40px 20px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.content{
+  background-color: #fff;
+  color: hsl(0, 4%, 5%);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.header h1{
+  text-transform: capitalize;
+  padding-top: 40px;
+  font-family: bold;
+}
+
+.header p{
+  padding: 20px;
+  font-family: regular;
+}
+
+.pay{
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  padding: 10px;
+}
+
+.icon{
+  margin-left: 10px;
+}
+
+.payment{
+  text-transform: capitalize;
+  margin-left: 10px;
+  font-family: bold;
+}
+
+.payment p{
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+  font-family: regular;
+}
+
+.link{
+  margin-left: 25px;
+  margin-top: 20px;
+  color: hsl(245, 75%, 52%);
+  box-shadow: hsl(225, 100%, 98%);
+}
+
+.btn{
+  text-decoration: none;
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 50px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: bold;
+}
+
+.tag{
+  padding-top: 20px;
+}
+
+.last{
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: bold;
+}
